@@ -3,13 +3,13 @@ import Accordion from 'react-bootstrap/Accordion'
 
 function Faq() {
   return (
-    <> <div className="fluid-container p-5"> 
-    <div className='row'><h2><span className="thin">Frequently Asked 
+    <> <div className="fluid-container p5"> 
+    <div className='row'><h2 className='ms-3 mb-5'><span className="thin">Frequently Asked 
 </span><span className='primarycolor thin'> Questions </span></h2>
     </div>
-    <div className='row p-5'>
-        <div className='col-2'><img src='./question.png' width={400} height={400} alt="img"/>
-            </div><div className='col-10 lgscreen'>
+    <div className='row p5 n'>
+        <div className='col-sm-2'><img src='./question.png' className="imgc" alt="img"/>
+            </div><div className='col-sm-10 lgscreen'>
             <Accordion>
   <Accordion.Item eventKey="0" className='m-2 rounded clr'> 
     <Accordion.Header className='m-2 rounded clr'>What’s the difference between a Public Sale and Private Sale?

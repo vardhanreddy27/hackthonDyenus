@@ -3,7 +3,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 function Banner() {
   return (
-    <div className="container p-5"> 
+    <div className="container p5"> 
      <div className='row'>
       <h2><span className="bold">IFO</span>:<span className="thin"> Initial Farm Offerings</span>
       </h2>

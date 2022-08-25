@@ -8,6 +8,10 @@ body{
   width: 0px;
   height: 100%;
 }
+.imgc{
+  height: 400px;
+  width: 400px;
+}
 .hr{
   width: 70%;
   margin: auto;
@@ -248,4 +252,58 @@ border: solid #004c3690;
   left: -25px;
   bottom: 30px;
   transform: rotate(-225deg);
+}.mm5{
+  margin: 3rem;
+  margin-top: 1rem!important;
+}
+.p5{
+  padding: 3rem;
+}
+@media only screen and (max-width: 600px) {
+ .imgc{
+  height: 100%;
+  width: 100%;
+ }.n{
+  margin-left: 2rem!important;
+}.box{width: 100%;
+max-width: 100%;}
+ .lgscreen {
+  margin-left: 0rem;
+  width: 100%!important;
+}.p5{
+  padding: 0rem;
+}.mla{
+  margin-top: 3rem!important;
+  margin-left: 1rem!important;
+  margin-bottom: 1rem;
+}.col1 {
+  width: 29.333333%!important;
+  margin-left: 18px;}.lr{
+  margin-left: 0rem!important;
+}.mm5{
+  margin-top: 0rem;
+  margin: 0rem!important;
+}.box1{
+  max-width: 100%;
+  width: 100%;
+}.mt{padding-left: 1rem!important;}.mb{
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
+}.ml{
+  margin-left: 0rem;
+}.btn3{
+  width: 88%;margin-top: 10px;
+}.btn {
+  margin-top: 15rem!important;
+  margin-left: 4.8rem;}.btn1{
+    margin: 0rem!important;
+  }.container{padding-top: 2rem;
+    --bs-gutter-x: 1.5rem!important;
+  }.ml {
+    margin-left: 17px!important;    margin-bottom: 2rem;
+}.pt{
+  padding: 2rem;
+}.mob{
+  margin-bottom: 2rem;
+}.sizemob{margin-bottom: 4rem;}
 }
