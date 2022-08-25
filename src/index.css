@@ -2,6 +2,12 @@ body{
   background-color: black!important;
   color: white!important;
 }
+.hr{
+  width: 70%;
+  margin: auto;
+}.lr{
+  margin-left: 10rem!important;
+}
 .bold{
   font-weight: 500;
 }.accordion-item {border: solid white!important;}
