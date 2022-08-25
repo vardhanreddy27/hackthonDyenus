@@ -5,6 +5,15 @@ body{
 .bold{
   font-weight: 500;
 }
+.btn3{ 
+  background: black;
+  color: white!important;
+  border-radius: 12px!important;
+  padding-left: 2rem!important;
+  border: solid #f8f9fab0!important;
+  padding-right: 2rem!important;
+  padding-bottom: 1rem!important;
+padding-top: 1rem;}
 .thin{
   font-weight: 100;
 }
@@ -32,3 +41,162 @@ body{
       padding-bottom: 1rem!important;
       background: #3fa02b;
     border: none;}
+    .center{text-align: center;}
+    .primarycolor{
+      color: #00E8A2;
+
+    }
+    .xs{margin-bottom: 5px;}
+    .primarybotton{
+      background-color: #00E8A2;
+      border-radius: 8px;
+      color: black;
+      font-weight: 500;
+    }
+    @import url(https://fonts.googleapis.com/css?family=Lato:700);
+.ml{margin-left: 3.5rem!important;}
+.box {
+  position: relative;
+  max-width: 80%;
+  width: 80%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+border: solid #3ea02ba0;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+}
+.row {
+  --bs-gutter-x: 0rem!important;}
+.bgcolor{    background: radial-gradient(circle, rgba(0,255,183,0.5247141092765231) 0%, rgba(0,0,0,1) 45%, rgba(0,0,0,1) 100%)!important;
+}
+/* common */
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}.col1{flex: 0 0 auto!important;
+  width: 11.333333%!important;}
+.mt{
+  margin-top:15rem!important;
+}p {
+  margin-top: 0!important;
+  margin-bottom: 0.5rem!important;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid rgb(39, 130, 113);
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  font-size: smaller!important;
+  width: 225px;
+  padding: 12px 0;
+  background: rgb(40,198,170);
+  background: linear-gradient(198deg, rgba(40,198,170,1) 42%, rgba(0,0,0,1) 100%);  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: rgb(0, 0, 0);
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top left*/
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-top-right span {
+  left: -25px;
+  top: 43px;
+  transform: rotate(45deg);
+}
+
+/* bottom left*/
+.ribbon-bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+.ribbon-bottom-left::before,
+.ribbon-bottom-left::after {
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-bottom-left::before {
+  bottom: 0;
+  right: 0;
+}
+.ribbon-bottom-left::after {
+  top: 0;
+  left: 0;
+}
+.ribbon-bottom-left span {
+  right: -25px;
+  bottom: 30px;
+  transform: rotate(225deg);
+}
+
+/* bottom right*/
+.ribbon-bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
+.ribbon-bottom-right::before,
+.ribbon-bottom-right::after {
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-bottom-right::before {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-bottom-right::after {
+  top: 0;
+  right: 0;
+}
+.ribbon-bottom-right span {
+  left: -25px;
+  bottom: 30px;
+  transform: rotate(-225deg);
+}

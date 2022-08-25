@@ -15,8 +15,8 @@ function Banner() {
     }}>
       <div className='col-sm-4'> 
           <button className='btn'>How does it work?</button>
-      </div><div className='col-sm-4'></div><div className='col-sm-4'>
-     <button className='btn1'>Participate Now <BsArrowRight /></button></div>
+      </div><div className='col-sm-4'></div><div className='col-sm-4 center'>
+     <button className='btn1'>Participate Now <BsArrowRight  /></button></div>
      </div>
     </div>
   )
