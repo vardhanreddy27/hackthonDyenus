@@ -290,7 +290,8 @@ max-width: 100%;}
   padding-left: 1rem!important;
   padding-right: 1rem!important;
 }.ml{
-  margin-left: 0rem;
+  margin-left: 0rem;    width: 92%!important;
+
 }.btn3{
   width: 88%;margin-top: 10px;
 }.btn {

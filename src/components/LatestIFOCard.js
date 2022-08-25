@@ -23,50 +23,52 @@ function LatestIFOCard() {
 </svg>
 </div>  <div className='col'><p>ON SALE</p><h4 className='primarycolor'>20,000,000 GOAL</h4></div>
 </div> <div className='row'><button type="button" className="primarybotton p-3 mt-5 btn-lg btn-block">Connect Wallet  <BsPlusLg className='xs' /></button>
+</div><div className='row d-none d-lg-block d-xl'>
+<div className='row ms-4 pt-5'>
+<div className='col-4'><h4>$600,000 MMF</h4></div>
+<div className='col-4'><h4>6 Hours</h4></div>
+<div className='col-4'><h4>0.03</h4></div>
 </div>
-<div className='row ms-4 pt-5  d-none d-lg-block d-xl'>
-<div className='col-sm-4'><h4>$600,000 MMF</h4></div>
-<div className='col-sm-4'><h4>6 Hours</h4></div>
-<div className='col-sm-4'><h4>0.03</h4></div>
-
-<div className='col-sm-4'><p>Funds to raise:</p></div>
-<div className='col-sm-4'><p>Launchpad duration:</p></div>
-<div className='col-sm-4'><p>Price per GOAL:</p></div>
+<div className='row ms-4 helperText'>
+<div className='col-4'><p>Funds to raise:</p></div>
+<div className='col-4'><p>Launchpad duration:</p></div>
+<div className='col-4'><p>Price per GOAL:</p></div>
 </div>
 <div className='row ms-4 mt-5 '>
-<div className='col-sm-4'><h4>20th March, 8am UTC</h4></div><div className="col-4"></div>
-<div className='col-sm-4 helperText'><p>Launchpad starts at:</p></div><div className="col-4"></div>
-
-<div className='col-sm-4'><h4>20th March, 2pm UTC</h4></div>
+<div className='col-4'><h4>20th March, 8am UTC</h4></div><div className="col-4"></div>
+<div className='col-4'><h4>20th March, 2pm UTC</h4></div>
 </div>
 <div className='row helperText ms-4 mt-2 '>
-<div className='col-sm-4'><p>Launchpad ends at:</p></div>
+<div className='col-4'><p>Launchpad starts at:</p></div><div className="col-4"></div>
+<div className='col-4'><p>Launchpad ends at:</p></div>
 </div>
 <div className='row ms-4 mt-4 '>
-<div className='col-sm-4'>          <button className='btn3'>Learn more about Lorem</button>
+<div className='col-4'>          <button className='btn3'>Learn more about Lorem</button>
 </div><div className="col-4"></div>
-<div className='col-sm-4'>          <button className='btn3'>Learn more about Lorem</button>
+<div className='col-4'>          <button className='btn3'>Learn more about Lorem</button>
+</div></div>
 </div>
-</div>
-<div className='row ms-4 pt-5   d-sm-none mt-4'>
+<div className='row d-sm-none'>
+<div className='row ms-4 pt-5'>
 <div className='col-sm-4'><h4>$600,000 MMF</h4></div>
-<div className='col-sm-4 helperText'><p>Funds to raise:</p></div>
-
-<div className='col-sm-4'><h4>6 Hours</h4></div>
-<div className='col-sm-4 helperText'><p>Launchpad duration:</p></div>
-
-<div className='col-sm-4'><h4>0.03</h4></div>
 
 <div className='col-sm-4 helperText'><p>Price per GOAL:</p></div>
+
+<div className='col-sm-4'><h4>0.03</h4></div>
+<div className='col-sm-4 helperText'><p>Launchpad duration:</p></div>
+<div className='col-sm-4'><h4>6 Hours</h4></div>
+
+</div>
+<div className='row ms-4 helperText'>
+<div className='col-sm-4'><p>Funds to raise:</p></div>
 </div>
 <div className='row ms-4 mt-5 '>
 <div className='col-sm-4'><h4>20th March, 8am UTC</h4></div><div className="col-4"></div>
 <div className='col-sm-4 helperText'><p>Launchpad starts at:</p></div><div className="col-4"></div>
 
 <div className='col-sm-4'><h4>20th March, 2pm UTC</h4></div>
-</div>
-<div className='row helperText ms-4 mt-2 '>
-<div className='col-sm-4'><p>Launchpad ends at:</p></div>
+<div className='col-sm-4 helperText'><p>Launchpad ends at:</p></div>
+
 </div>
 <div className='row ms-4 mt-4 '>
 <div className='col-sm-4'>          <button className='btn3'>Learn more about Lorem</button>
@@ -74,6 +76,8 @@ function LatestIFOCard() {
 <div className='col-sm-4'>          <button className='btn3'>Learn more about Lorem</button>
 </div>
 </div>
+</div>
+
 </div></div>
 </div>
 </div>
